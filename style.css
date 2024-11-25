@@ -122,3 +122,25 @@ body {
 .search button:hover {
   background-color: #ccdbef;
 }
+
+@media only screen and (max-width: 420px) {
+  .search {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .search input {
+    width: 100%;
+    border-radius: 10px;
+    height: 150px;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .search button {
+    width: 50%;
+    height: 50px;
+    border-radius: 20px;
+  }
+}
